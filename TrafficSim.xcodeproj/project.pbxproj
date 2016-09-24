@@ -7,33 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13576E8E1D95A7D100F5A8D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D74E111CD40F4600739032 /* Main.storyboard */; };
+		137DC3D61D95C33C00ACB934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D74E161CD40F4600739032 /* LaunchScreen.storyboard */; };
+		137DC3D71D95F33000ACB934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D74E0F1CD40F4600739032 /* ViewController.swift */; };
+		138C4ED01D8BBAE8008F60F3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138C4EC31D8BBAC6008F60F3 /* Alamofire.framework */; };
+		138C4ED11D8BBAE8008F60F3 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 138C4EC31D8BBAC6008F60F3 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D74E0E1CD40F4600739032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D74E0D1CD40F4600739032 /* AppDelegate.swift */; };
-		65D74E101CD40F4600739032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D74E0F1CD40F4600739032 /* ViewController.swift */; };
-		65D74E131CD40F4600739032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D74E111CD40F4600739032 /* Main.storyboard */; };
 		65D74E151CD40F4600739032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D74E141CD40F4600739032 /* Assets.xcassets */; };
-		65D74E181CD40F4600739032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D74E161CD40F4600739032 /* LaunchScreen.storyboard */; };
-		65D74E231CD40F4600739032 /* TrafficSimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D74E221CD40F4600739032 /* TrafficSimTests.swift */; };
-		65D74E2E1CD40F4600739032 /* TrafficSimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D74E2D1CD40F4600739032 /* TrafficSimUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		65D74E1F1CD40F4600739032 /* PBXContainerItemProxy */ = {
+		138C4EC21D8BBAC6008F60F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 65D74E021CD40F4600739032 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 65D74E091CD40F4600739032;
-			remoteInfo = TrafficSim;
+			containerPortal = 138C4E6A1D8BB9FD008F60F3 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
 		};
-		65D74E2A1CD40F4600739032 /* PBXContainerItemProxy */ = {
+		138C4ED21D8BBAE8008F60F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 65D74E021CD40F4600739032 /* Project object */;
+			containerPortal = 138C4E6A1D8BB9FD008F60F3 /* Alamofire.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 65D74E091CD40F4600739032;
-			remoteInfo = TrafficSim;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		650CF9A41CD96D9C002FB483 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				138C4ED11D8BBAE8008F60F3 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		138C4E6A1D8BB9FD008F60F3 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		474815E1E63F0DE592704348 /* Pods-TrafficSim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrafficSim.debug.xcconfig"; path = "../../app/ipadapp/Pods/Target Support Files/Pods-TrafficSim/Pods-TrafficSim.debug.xcconfig"; sourceTree = "<group>"; };
 		65D74E0A1CD40F4600739032 /* TrafficSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D74E0D1CD40F4600739032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65D74E0F1CD40F4600739032 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,12 +57,11 @@
 		65D74E141CD40F4600739032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65D74E171CD40F4600739032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65D74E191CD40F4600739032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65D74E1E1CD40F4600739032 /* TrafficSimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficSimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D74E221CD40F4600739032 /* TrafficSimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficSimTests.swift; sourceTree = "<group>"; };
 		65D74E241CD40F4600739032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65D74E291CD40F4600739032 /* TrafficSimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficSimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D74E2D1CD40F4600739032 /* TrafficSimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficSimUITests.swift; sourceTree = "<group>"; };
 		65D74E2F1CD40F4600739032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699E072B0CF1DE602196AAC1 /* Pods-TrafficSim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrafficSim.release.xcconfig"; path = "../../app/ipadapp/Pods/Target Support Files/Pods-TrafficSim/Pods-TrafficSim.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,33 +69,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65D74E1B1CD40F4600739032 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65D74E261CD40F4600739032 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				138C4ED01D8BBAE8008F60F3 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		138C4EB81D8BBAC6008F60F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				138C4EC31D8BBAC6008F60F3 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4412C3F73D56C10F16E4F8D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				474815E1E63F0DE592704348 /* Pods-TrafficSim.debug.xcconfig */,
+				699E072B0CF1DE602196AAC1 /* Pods-TrafficSim.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		65D74E011CD40F4600739032 = {
 			isa = PBXGroup;
 			children = (
 				65D74E0C1CD40F4600739032 /* TrafficSim */,
+				138C4E6A1D8BB9FD008F60F3 /* Alamofire.xcodeproj */,
 				65D74E211CD40F4600739032 /* TrafficSimTests */,
 				65D74E2C1CD40F4600739032 /* TrafficSimUITests */,
 				65D74E0B1CD40F4600739032 /* Products */,
+				4412C3F73D56C10F16E4F8D6 /* Pods */,
+				A84D9F18BCF335D3258C0BB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				65D74E0A1CD40F4600739032 /* TrafficSim.app */,
-				65D74E1E1CD40F4600739032 /* TrafficSimTests.xctest */,
-				65D74E291CD40F4600739032 /* TrafficSimUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +145,13 @@
 			path = TrafficSimUITests;
 			sourceTree = "<group>";
 		};
+		A84D9F18BCF335D3258C0BB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,54 +159,23 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65D74E321CD40F4600739032 /* Build configuration list for PBXNativeTarget "TrafficSim" */;
 			buildPhases = (
+				A168CD145A5D1C9081BCBEF3 /* [CP] Check Pods Manifest.lock */,
 				65D74E061CD40F4600739032 /* Sources */,
 				65D74E071CD40F4600739032 /* Frameworks */,
 				65D74E081CD40F4600739032 /* Resources */,
+				650CF9A41CD96D9C002FB483 /* Embed Frameworks */,
+				66BD1D0886EBBEACEC6A1D04 /* [CP] Embed Pods Frameworks */,
+				4485B1B25805D946CDE275F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				138C4ED31D8BBAE8008F60F3 /* PBXTargetDependency */,
 			);
 			name = TrafficSim;
 			productName = TrafficSim;
 			productReference = 65D74E0A1CD40F4600739032 /* TrafficSim.app */;
 			productType = "com.apple.product-type.application";
-		};
-		65D74E1D1CD40F4600739032 /* TrafficSimTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65D74E351CD40F4600739032 /* Build configuration list for PBXNativeTarget "TrafficSimTests" */;
-			buildPhases = (
-				65D74E1A1CD40F4600739032 /* Sources */,
-				65D74E1B1CD40F4600739032 /* Frameworks */,
-				65D74E1C1CD40F4600739032 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				65D74E201CD40F4600739032 /* PBXTargetDependency */,
-			);
-			name = TrafficSimTests;
-			productName = TrafficSimTests;
-			productReference = 65D74E1E1CD40F4600739032 /* TrafficSimTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		65D74E281CD40F4600739032 /* TrafficSimUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65D74E381CD40F4600739032 /* Build configuration list for PBXNativeTarget "TrafficSimUITests" */;
-			buildPhases = (
-				65D74E251CD40F4600739032 /* Sources */,
-				65D74E261CD40F4600739032 /* Frameworks */,
-				65D74E271CD40F4600739032 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				65D74E2B1CD40F4600739032 /* PBXTargetDependency */,
-			);
-			name = TrafficSimUITests;
-			productName = TrafficSimUITests;
-			productReference = 65D74E291CD40F4600739032 /* TrafficSimUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -187,20 +183,15 @@
 		65D74E021CD40F4600739032 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Chris Weld";
 				TargetAttributes = {
 					65D74E091CD40F4600739032 = {
 						CreatedOnToolsVersion = 7.3;
-					};
-					65D74E1D1CD40F4600739032 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 65D74E091CD40F4600739032;
-					};
-					65D74E281CD40F4600739032 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 65D74E091CD40F4600739032;
 					};
 				};
 			};
@@ -215,80 +206,107 @@
 			mainGroup = 65D74E011CD40F4600739032;
 			productRefGroup = 65D74E0B1CD40F4600739032 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 138C4EB81D8BBAC6008F60F3 /* Products */;
+					ProjectRef = 138C4E6A1D8BB9FD008F60F3 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				65D74E091CD40F4600739032 /* TrafficSim */,
-				65D74E1D1CD40F4600739032 /* TrafficSimTests */,
-				65D74E281CD40F4600739032 /* TrafficSimUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		138C4EC31D8BBAC6008F60F3 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 138C4EC21D8BBAC6008F60F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		65D74E081CD40F4600739032 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D74E181CD40F4600739032 /* LaunchScreen.storyboard in Resources */,
+				137DC3D61D95C33C00ACB934 /* LaunchScreen.storyboard in Resources */,
 				65D74E151CD40F4600739032 /* Assets.xcassets in Resources */,
-				65D74E131CD40F4600739032 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65D74E1C1CD40F4600739032 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65D74E271CD40F4600739032 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				13576E8E1D95A7D100F5A8D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4485B1B25805D946CDE275F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../app/ipadapp/Pods/Target Support Files/Pods-TrafficSim/Pods-TrafficSim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66BD1D0886EBBEACEC6A1D04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../app/ipadapp/Pods/Target Support Files/Pods-TrafficSim/Pods-TrafficSim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A168CD145A5D1C9081BCBEF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65D74E061CD40F4600739032 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D74E101CD40F4600739032 /* ViewController.swift in Sources */,
+				137DC3D71D95F33000ACB934 /* ViewController.swift in Sources */,
 				65D74E0E1CD40F4600739032 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65D74E1A1CD40F4600739032 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65D74E231CD40F4600739032 /* TrafficSimTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65D74E251CD40F4600739032 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65D74E2E1CD40F4600739032 /* TrafficSimUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		65D74E201CD40F4600739032 /* PBXTargetDependency */ = {
+		138C4ED31D8BBAE8008F60F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65D74E091CD40F4600739032 /* TrafficSim */;
-			targetProxy = 65D74E1F1CD40F4600739032 /* PBXContainerItemProxy */;
-		};
-		65D74E2B1CD40F4600739032 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 65D74E091CD40F4600739032 /* TrafficSim */;
-			targetProxy = 65D74E2A1CD40F4600739032 /* PBXContainerItemProxy */;
+			name = "Alamofire iOS";
+			targetProxy = 138C4ED21D8BBAE8008F60F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -399,69 +417,39 @@
 		};
 		65D74E331CD40F4600739032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 474815E1E63F0DE592704348 /* Pods-TrafficSim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TrafficSim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.thundertraffic.TrafficSim;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.thundertraffic.mo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		65D74E341CD40F4600739032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699E072B0CF1DE602196AAC1 /* Pods-TrafficSim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TrafficSim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.thundertraffic.TrafficSim;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.thundertraffic.mo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		65D74E361CD40F4600739032 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TrafficSimTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.thundertraffic.TrafficSimTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficSim.app/TrafficSim";
-			};
-			name = Debug;
-		};
-		65D74E371CD40F4600739032 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TrafficSimTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.thundertraffic.TrafficSimTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficSim.app/TrafficSim";
-			};
-			name = Release;
-		};
-		65D74E391CD40F4600739032 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TrafficSimUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.thundertraffic.TrafficSimUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TrafficSim;
-			};
-			name = Debug;
-		};
-		65D74E3A1CD40F4600739032 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TrafficSimUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.thundertraffic.TrafficSimUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TrafficSim;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,22 +472,7 @@
 				65D74E341CD40F4600739032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		65D74E351CD40F4600739032 /* Build configuration list for PBXNativeTarget "TrafficSimTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				65D74E361CD40F4600739032 /* Debug */,
-				65D74E371CD40F4600739032 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		65D74E381CD40F4600739032 /* Build configuration list for PBXNativeTarget "TrafficSimUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				65D74E391CD40F4600739032 /* Debug */,
-				65D74E3A1CD40F4600739032 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
